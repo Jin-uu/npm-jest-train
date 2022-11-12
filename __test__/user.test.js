@@ -1,5 +1,25 @@
-const User = require('../User.js')
+const User = require("../src/User.js");
 
-test("사용자 이메일 생성 테스트", () => {
-    let user01 = new User('Jinu', 22);
+test("User 생성 테스트", () => {
+  expect(() => new User("Sun", 19)).toThrow("[ERROR]");
+});
+
+describe("test Group 1", () => {
+	test("test 1-1", () => {
+		// ... 
+	})
+
+	test("test 1-2", () => {
+		// ... 
+	})
+})
+
+describe("test Group 2", () => {
+	test("test 2-1", () => {
+		// ... 
+	})
+
+	test("test 2-2", () => {
+		// ... 
+	})
 })
