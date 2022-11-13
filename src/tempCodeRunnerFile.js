@@ -1,0 +1,2 @@
+
+sendUser("Jinu", console.log)
